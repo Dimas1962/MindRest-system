@@ -1,0 +1,89 @@
+{
+  "id": "archetypal_path_chain",
+  "description": "Цепочка Архетипического Пути MindRest",
+  "steps": [
+    {
+      "id": "A",
+      "name": "Инициация",
+      "type": "stage"
+    },
+    {
+      "id": "B",
+      "name": "Архетип Тени",
+      "type": "encounter"
+    },
+    {
+      "id": "C",
+      "name": "Испытание",
+      "type": "challenge"
+    },
+    {
+      "id": "D",
+      "name": "Наставник",
+      "type": "guide"
+    },
+    {
+      "id": "E",
+      "name": "Раненый Целитель",
+      "type": "healing"
+    },
+    {
+      "id": "F",
+      "name": "Искатель",
+      "type": "identity"
+    },
+    {
+      "id": "G",
+      "name": "Алхимик",
+      "type": "transformation"
+    },
+    {
+      "id": "H",
+      "name": "Провидец",
+      "type": "vision"
+    },
+    {
+      "id": "I",
+      "name": "Интеграция",
+      "type": "completion"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "A",
+      "to": "B"
+    },
+    {
+      "from": "B",
+      "to": "C"
+    },
+    {
+      "from": "C",
+      "to": "D"
+    },
+    {
+      "from": "C",
+      "to": "E"
+    },
+    {
+      "from": "E",
+      "to": "G"
+    },
+    {
+      "from": "F",
+      "to": "G"
+    },
+    {
+      "from": "G",
+      "to": "H"
+    },
+    {
+      "from": "H",
+      "to": "I"
+    },
+    {
+      "from": "D",
+      "to": "I"
+    }
+  ]
+}
