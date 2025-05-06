@@ -1,0 +1,60 @@
+{
+  "type": "card_flow",
+  "title": "Архетипический Путь",
+  "steps": [
+    {
+      "title": "Инициация",
+      "description": "Этап: Инициация, тип: stage",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Инициация»",
+      "output_binding": "step_a_response"
+    },
+    {
+      "title": "Архетип Тени",
+      "description": "Этап: Архетип Тени, тип: encounter",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Архетип Тени»",
+      "output_binding": "step_b_response"
+    },
+    {
+      "title": "Испытание",
+      "description": "Этап: Испытание, тип: challenge",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Испытание»",
+      "output_binding": "step_c_response"
+    },
+    {
+      "title": "Наставник",
+      "description": "Этап: Наставник, тип: guide",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Наставник»",
+      "output_binding": "step_d_response"
+    },
+    {
+      "title": "Раненый Целитель",
+      "description": "Этап: Раненый Целитель, тип: healing",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Раненый Целитель»",
+      "output_binding": "step_e_response"
+    },
+    {
+      "title": "Искатель",
+      "description": "Этап: Искатель, тип: identity",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Искатель»",
+      "output_binding": "step_f_response"
+    },
+    {
+      "title": "Алхимик",
+      "description": "Этап: Алхимик, тип: transformation",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Алхимик»",
+      "output_binding": "step_g_response"
+    },
+    {
+      "title": "Провидец",
+      "description": "Этап: Провидец, тип: vision",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Провидец»",
+      "output_binding": "step_h_response"
+    },
+    {
+      "title": "Интеграция",
+      "description": "Этап: Интеграция, тип: completion",
+      "input_prompt": "Опиши, что ты переживаешь на этапе «Интеграция»",
+      "output_binding": "step_i_response"
+    }
+  ]
+}

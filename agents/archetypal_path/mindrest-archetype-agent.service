@@ -1,0 +1,16 @@
+
+[Unit]
+Description=MindRest Archetypal Agent Service
+After=network.target docker.service
+Requires=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker compose -f /opt/mindrest/agents/archetypal_path/docker-compose.yml up
+ExecStop=/usr/bin/docker compose -f /opt/mindrest/agents/archetypal_path/docker-compose.yml down
+WorkingDirectory=/opt/mindrest/agents/archetypal_path
+TimeoutStartSec=30
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
