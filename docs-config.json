@@ -1,0 +1,39 @@
+
+{
+  "title": "MindRest Docs",
+  "root": "/docs",
+  "defaultLanguage": "ru",
+  "docs": [
+    {
+      "slug": "archetypal-agent",
+      "title": "Архетипический Агент",
+      "file": "agents/archetypal_path/README_SupabaseDocs_Format.md"
+    }
+  ]
+}
+cd ~/Downloads/mindrest-agents
+cd /путь/к/вашему/репозиторию/mindrest-agents
+
+pwd
+
+pwd
+cd ~/Downloads/mindrest-agents
+
+cd ~/Github/MindRest-system
+cd ~/Github/MindRest-system/mindrest-agents
+nano docs-config.json
+
+nano docs-config.json
+{
+  "title": "MindRest Docs",
+  "root": "/docs",
+  "defaultLanguage": "ru",
+  "docs": [
+    {
+      "slug": "archetypal-agent",
+      "title": "Архетипический Агент",
+      "file": "agents/archetypal_path/README_SupabaseDocs_Format.md"
+    }
+  ]
+}
+
